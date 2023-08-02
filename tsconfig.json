@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "module": "esnext",
+      "target": "esnext",
+      "moduleResolution": "node",
+      "strict": true,
+      "noImplicitAny": false,
+      "baseUrl": "./",
+      "paths": {
+        "@/*": ["src/*"]
+      },
+      "jsx": "preserve",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "allowJs": false,
+      "checkJs": false,
+      "sourceMap": true,
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "build", "dist"]
+  }
+  

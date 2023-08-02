@@ -1,0 +1,29 @@
+
+@mixin Tablet {
+    .head {
+        flex-direction: column;
+    }
+}
+
+@mixin Mobile {
+    .description {
+        width: 80%;
+        text-align: center;
+    }
+}
+
+@mixin Small-Device {
+    .footer .version {
+        font-size: small;
+    }
+
+    .version img {
+        height: 10px;
+    }
+}
+
+@mixin Smaller-Device {
+   .footer-logo {
+    width: 5vw;
+   }
+}

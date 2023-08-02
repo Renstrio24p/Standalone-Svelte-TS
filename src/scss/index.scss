@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import './mixins_.scss';
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+html {
+  font-family: "Poppins";
+}
+
+body {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(61, 217, 238) 0%,
+    rgba(192, 105, 34, 0.985) 75%
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 667px) {
+    @include Tablet;
+}
+
+@media only screen and (max-width: 484px) {
+    @include Mobile;
+}
+
+@media only screen and (max-width: 386px) {
+    @include Small-Device;
+}

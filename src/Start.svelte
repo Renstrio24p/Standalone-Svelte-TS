@@ -70,7 +70,7 @@
      }
 
      .svelte:hover {
-      filter: drop-shadow(0 0 2em #a5330daa);
+      filter: drop-shadow(0 0 2em #df886caa);
      }
 
      .typescript {

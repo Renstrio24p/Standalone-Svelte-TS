@@ -1,9 +1,4 @@
 <script>
-    import sveltelogo from './images/svelte.svg';
-    import webpacklogo from './images/webpack.png';
-    import typescriptlogo from './images/typescript.png'
-    import sasslogo from './images/sass.png';
-    import githublogo from './images/github.png';
     import Counter from './lib/counter.svelte';
 
   </script>
@@ -12,14 +7,14 @@
     <div class="container">
       <div class="head">
         <a href="https://svelte.dev" target="_blank" rel="noreferrer">
-          <img class="logo svelte" src='{sveltelogo}' alt="svelte" />
+          <img class="logo svelte" src='svelte.svg' alt="svelte" />
         </a>
         <h1>Standalone - Svelte</h1>
         <a href="https://webpack.js.org" target="_blank" rel="noreferrer">
-          <img class="logo webpack" src='{webpacklogo}' alt="webpack logo" />
+          <img class="logo webpack" src='webpack.png' alt="webpack logo" />
         </a>
       </div>
-      <p class="description">Standalone Svelte TS Webpack Version. supports codespace. <a href="https://www.typescriptlang.org/"><img class="typescript" src={typescriptlogo} alt='typescript-logo' /></a></p>
+      <p class="description">Standalone Svelte TS Webpack Version. supports codespace. <a href="https://www.typescriptlang.org/"><img class="typescript" src='typescript.png' alt='typescript-logo' /></a></p>
       <div class="button-box">
           <Counter />
       </div>
@@ -27,10 +22,10 @@
     <div class="footer">
       <div class="version">
         <p>version 1.0.0</p>
-        <img class="footer-logo" src={sasslogo} alt='sass-logo' />
+        <img class="footer-logo" src='sass.png' alt='sass-logo' />
       </div>
       <div class="version">
-        <img class="footer-logo" src={githublogo} alt='github-logo' />
+        <img class="footer-logo" src='github.png' alt='github-logo' />
         <p>Codespace</p>
       </div>
     </div>

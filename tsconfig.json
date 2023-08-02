@@ -7,7 +7,7 @@
       "noImplicitAny": false,
       "baseUrl": "./",
       "paths": {
-        "@/*": ["src/*"]
+        "@/*": ["*"]
       },
       "jsx": "preserve",
       "lib": ["dom", "dom.iterable", "esnext"],

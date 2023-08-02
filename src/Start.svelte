@@ -14,7 +14,7 @@
           <img class="logo webpack" src='webpack.png' alt="webpack logo" />
         </a>
       </div>
-      <p class="description">Standalone Svelte TS Webpack Version. supports codespace. <a href="https://www.typescriptlang.org/"><img class="typescript" src='typescript.png' alt='typescript-logo' /></a></p>
+      <p class="description">Standalone Svelte TS Webpack Version. supports codespace. <a href="https://www.typescriptlang.org/"><img class="typescript" src='typescript.svg' alt='typescript-logo' /></a></p>
       <div class="button-box">
           <Counter />
       </div>

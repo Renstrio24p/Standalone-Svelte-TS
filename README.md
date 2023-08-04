@@ -1,7 +1,8 @@
 ﻿# Standalone-Svelte-TS-Webpack
 
-Bundler JS
+
 ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
+
 
 Standalone Svelte-TS
 is an offline development for svelte with types that can be used to your projects in svelte codebased.
